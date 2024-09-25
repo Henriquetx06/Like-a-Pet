@@ -1,0 +1,258 @@
+/* aplica para a pagina toda */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/*variavel de cores e fontes*/
+ :root { 
+    --color-white1: #fff;
+    --color-white2: #e4e4e4;
+    --color-white3: #c4c0c0;
+    --color-white4: #f5f2f2;
+    --color-dark: #4b4848;
+    --color-blue: #0291bd;
+    --font-primary: Helvetica;
+    --font-secondary: 'Open Sans', sans-serif;
+}
+
+/*pagina toda*/
+body { 
+    font-family: var(--font-primary);
+    background-color: var(--color-white1);
+    color: var(--color-white);
+}
+
+.img_logo_header { /*Logo*/
+    width: 90px;
+    padding: 0 300%;
+}
+
+/*Cabecalho*/
+.header{ 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-white1);
+    box-shadow: 1px 1px 4px var(--color-white3);
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+/*links do cabecalho*/
+.navigation_header{ 
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    padding: 0px 35% 0px 0px;
+}
+
+.navigation_header a{ 
+    text-decoration: none;
+    color: var(--color-white);
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+
+.navigation_header a:hover { 
+    color: var(--color-blue);
+}
+
+/*Botao Login*/
+.login{
+    position: relative;
+    left: 290px;
+}
+
+/*Barra colorida*/
+.barra1{
+    width: 10%;
+    height: 12px;
+    position: relative;
+    top: -50px;
+    left: 290px;
+    background-color: var(--color-blue);
+}
+
+.barra2{
+    width: 10%;
+    height: 12px;
+    position: relative;
+    top: -50px;
+    left: 300px;
+    background-color: var(--color-white3);
+}
+
+/*Sessao de textos*/
+.text_body{
+    position: relative;
+    top: 50px;
+}
+
+.text_title1{ 
+    display: flex;
+    padding: 5% 15%;
+    color: var(--color-blue);
+    font-size: 27px;
+}
+
+.text_title2{
+    display: flex;
+    padding: 0% 15%;
+    color: var(--color-dark);
+    font-size: 20px;
+}
+
+.text_title3{
+    display: flex;
+    padding: 10% 0% 2% 15%;
+    color: var(--color-blue);
+    font-size: 25px;
+}
+
+.text_para{
+    font-family: var(--font-secondary);
+    font-size: 20px;
+}
+
+
+.text_para1{
+    padding: 0% 15%;
+}
+
+.text_para2{
+    padding: 2% 15%;
+}
+
+.text_para3{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0% 15%;
+    font-size: 20px;
+    background-color: #96defa;
+}
+
+.p1{
+    background-color: var(--color-white4);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
+.text_title4{ 
+    text-align: center;
+    font-size: 25px;
+    color: var(--color-blue);
+    padding: 1% 20%;
+}
+
+
+/*Botao produtos*/
+.button_prod{ 
+    padding: 10px 20px;
+    position: relative;
+    top: 50px;
+    left: 280px;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: var(--font-secondary);
+    background-color: var(--color-white3);
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    display: inline-block; /* Mantém o botão dentro do fluxo */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.button_prod:hover{
+    background-color: var(--color-blue);
+    color: white;
+}
+
+/*Imagem do cachorro*/
+.img_body{ 
+    display: flex;
+   float: right;
+   padding: 10% 10%;
+}
+
+
+/*Footer*/
+.footer1{
+    padding: 100px;
+    background-color: var(--color-blue);
+    color: var(--color-white1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer2{
+    background-color: var(--color-white);
+    height: 190px;
+}
+
+
+.clock{
+    color: var(--color-white1);
+    position: relative;
+    left: 250px;
+    top: 15px;
+    margin-bottom: 20px;
+}
+
+.text_footer1{
+    position: relative;
+    left: 250px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text_list1{
+    position: relative;
+    left: 700px;
+    top: 20px;
+    font-size: 18px;
+    margin-top: -100px;
+}
+
+.text_horarios2{
+    position: relative;
+    left: 1100px;
+    top: 20px;
+    font-size: 18px;
+    margin-top: -100px;
+}
+
+.h3_footer1{
+    position: relative;
+    top: -10px;
+}
+
+.h3_footer2{
+    position: relative;
+    top: -90px;
+    left: 1100px;
+}
+
+/*Creditos*/
+.credits1{ 
+    position: relative;
+    top: 110%;
+    left: 290px;
+    font-family: "Urbanist", Sans-serif;
+    font-size: 15px;
+}
+
+.credits2{
+    position: relative;
+    top: 100%;
+    left: 1400px;
+    font-family: "Urbanist", Sans-serif;
+    font-size: 15px;
+}
