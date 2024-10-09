@@ -38,6 +38,7 @@ body {
     width: 100%;
     height: 80px;
     justify-content: space-between;
+    z-index: 1000; /*faz se sobrepor sobre os outros conteudos da pagina*/
 }
 
 /*links do cabecalho*/
@@ -87,7 +88,7 @@ body {
 /*Sessao de textos*/
 .text_body{
     position: relative;
-    top: 50px;
+    top: -500px;
 }
 
 .text_title1{ 
@@ -178,9 +179,9 @@ body {
 
 /*Imagem do cachorro*/
 .img_body{ 
-    display: flex;
-   float: right;
-   padding: 10% 10%;
+    position: relative;
+    top: 10px;
+    left: 1300px;
 }
 
 
