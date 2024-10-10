@@ -17,7 +17,7 @@
 }
 
 /*pagina toda*/
-body { 
+body{ 
     font-family: var(--font-primary);
     background-color: var(--color-white1);
     color: var(--color-white);
@@ -83,6 +83,16 @@ body {
     top: -50px;
     left: 300px;
     background-color: var(--color-white3);
+}
+
+.barra3{
+    width: 10%;
+    height: 12px;
+    position: relative;
+    top: -50px;
+    left: 1000px;
+    transform: rotate(45deg); /*altera o angulo da barra*/
+    background-color: var(--color-blue);
 }
 
 /*Sessao de textos*/
