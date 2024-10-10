@@ -126,6 +126,13 @@ body {
     padding: 2% 15%;
 }
 
+.corp{
+    position: relative;
+    top: 500px;
+    background-color: #c1ecfd;
+    height: 500px;
+} 
+
 .text_para3{
     text-align: center;
     display: flex;
@@ -133,7 +140,7 @@ body {
     gap: 20px;
     padding: 0% 15%;
     font-size: 20px;
-    background-color: #96defa;
+    height: 300px;
 }
 
 .p1{
@@ -141,8 +148,6 @@ body {
     padding: 20px;
     border-radius: 15px;
 }
-
-
 
 .text_title4{ 
     text-align: center;
