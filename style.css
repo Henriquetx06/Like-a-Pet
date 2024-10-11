@@ -21,6 +21,7 @@ body{
     font-family: var(--font-primary);
     background-color: var(--color-white1);
     color: var(--color-white);
+    overflow-x: hidden;
 }
 
 .img_logo_header { /*Logo*/
@@ -50,6 +51,8 @@ body{
 
 /*links do cabecalho*/
 .navigation_header{ 
+    position: relative;
+    top: 8px;
     display: flex;
     flex-direction: row;
     gap: 5em;
@@ -69,7 +72,9 @@ body{
 
 /*Botao Login*/
 .login{
+    padding: 8px 10px;
     position: relative;
+    top: -5px;
     left: 290px;
     background-color: var(--color-white3);
     color: black;
@@ -84,7 +89,7 @@ body{
 
 .login:hover{
     background-color: var(--color-blue);
-    color: white;
+    color: var(--color-white1)
 }
 
 /*Barra colorida*/
