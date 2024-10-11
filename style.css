@@ -6,7 +6,7 @@
 
 /*variavel de cores e fontes*/
  :root { 
-    --color-white1: #fff;
+    --color-white1: #ffffff;
     --color-white2: #e4e4e4;
     --color-white3: #c4c0c0;
     --color-white4: #f5f2f2;
@@ -115,7 +115,7 @@ body{
     width: 22%;
     height: 22px;
     position: relative;
-    top: -330px;
+    top: -338px;
     left: 1540px;
     transform: rotate(40deg); /*altera o angulo da barra*/
     background-color: var(--color-white3);
@@ -125,7 +125,7 @@ body{
     width: 25%;
     height: 22px;
     position: relative;
-    top: -350px;
+    top: -355px;
     left: 1550px;
     transform: rotate(40deg); /*altera o angulo da barra*/
     background-color: var(--color-blue);
@@ -306,4 +306,4 @@ body{
     left: 1400px;
     font-family: "Urbanist", Sans-serif;
     font-size: 15px;
-}
+}   
