@@ -39,14 +39,13 @@ body{
     height: 80px;
     justify-content: space-between;
     z-index: 1000; /*faz se sobrepor sobre os outros conteudos da pagina*/
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .header.scrolled{
     background-color: var(--color-white1); /* Fundo branco ao descer */
     box-shadow: 1px 1px 4px var(--color-white3); /* Sombra ao descer */
 }
-
-
 
 
 /*links do cabecalho*/
@@ -72,6 +71,20 @@ body{
 .login{
     position: relative;
     left: 290px;
+    background-color: var(--color-white3);
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    display: inline-block; /* Mantém o botão dentro do fluxo */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.login:hover{
+    background-color: var(--color-blue);
+    color: white;
 }
 
 /*Barra colorida*/
@@ -94,15 +107,24 @@ body{
 }
 
 .barra3{
-    width: 10%;
-    height: 12px;
+    width: 22%;
+    height: 22px;
     position: relative;
-    top: -350px;
-    left: 1700px;
-    transform: rotate(45deg); /*altera o angulo da barra*/
-    background-color: var(--color-blue);
+    top: -330px;
+    left: 1540px;
+    transform: rotate(40deg); /*altera o angulo da barra*/
+    background-color: var(--color-white3);
 }
 
+.barra4{
+    width: 25%;
+    height: 22px;
+    position: relative;
+    top: -350px;
+    left: 1550px;
+    transform: rotate(40deg); /*altera o angulo da barra*/
+    background-color: var(--color-blue);
+}
 /*Sessao de textos*/
 .text_body{
     position: relative;
